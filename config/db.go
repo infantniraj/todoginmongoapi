@@ -9,7 +9,7 @@ import (
 	"go.mongodb.org/mongo-driver/mongo/options"
 	"go.mongodb.org/mongo-driver/mongo/readpref"
 
-	"github.com/cavdy-play/go_mongo/controllers"
+	"go_mongo/controllers"
 )
 
 func Connect() {

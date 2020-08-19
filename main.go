@@ -1,18 +1,16 @@
 package main
 
 import (
+	"go_mongo/config"
+	"go_mongo/routes"
 	"log"
 
 	"github.com/gin-gonic/gin"
-
-	"github.com/cavdy-play/go_mongo/config"
-	"github.com/cavdy-play/go_mongo/routes"
 )
 
 func main() {
 	// Database
 	config.Connect()
-
 	// Init Router
 	router := gin.Default()
 
